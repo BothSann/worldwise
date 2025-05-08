@@ -2,8 +2,6 @@ import styles from "./Homepage.module.css";
 import { Link } from "react-router";
 import PageNav from "../components/PageNav";
 
-const appPath = "/app";
-
 export default function Homepage() {
   return (
     <main className={styles.homepage}>
@@ -19,7 +17,7 @@ export default function Homepage() {
           of. Never forget your wonderful experiences, and show your friends how
           you have wandered the world.
         </h2>
-        <Link to={appPath} className="cta">
+        <Link to="/app" className="cta">
           Start tracking now
         </Link>
       </section>

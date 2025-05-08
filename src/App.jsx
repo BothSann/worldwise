@@ -6,21 +6,19 @@ import PageNotFound from "./pages/PageNotFound";
 import Login from "./pages/Login";
 import AppLayout from "./pages/AppLayout";
 
-const homePath = "/";
-const productPath = "/product";
-const pricingPath = "/pricing";
-const loginPath = "/login";
-const appPath = "/app";
-
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path={homePath} element={<Homepage />} />
-        <Route path={productPath} element={<Product />} />
-        <Route path={pricingPath} element={<Pricing />} />
-        <Route path={loginPath} element={<Login />} />
-        <Route path={appPath} element={<AppLayout />} />
+        <Route path="/" element={<Homepage />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/app" element={<AppLayout />}>
+          <Route path="cities" element={<p>List of cities</p>} />
+          <Route path="countries" element={<p>City by country</p>} />
+          <Route path="form" element={<p>Form</p>} />
+        </Route>
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>

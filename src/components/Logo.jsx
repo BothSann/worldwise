@@ -1,11 +1,9 @@
 import styles from "./Logo.module.css";
 import { Link } from "react-router";
 
-const homePath = "/";
-
 function Logo() {
   return (
-    <Link to={homePath}>
+    <Link to="/">
       <img src="/logo.png" alt="WorldWise logo" className={styles.logo} />
     </Link>
   );
