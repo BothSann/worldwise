@@ -1,3 +1,8 @@
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
 .city {
   padding: 2rem 3rem;
   max-height: 70%;
