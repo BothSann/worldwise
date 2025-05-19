@@ -15,7 +15,9 @@ import Button from "./Button";
 import styles from "./Map.module.css";
 
 function Map() {
-  const [mapPosition, setMapPosition] = useState([40, 0]);
+  const [mapPosition, setMapPosition] = useState([
+    40.71576304283648, -74.01178972199084,
+  ]);
   const { cities } = useCities();
   const [mapLat, mapLng] = useUrlPosition();
   const {
