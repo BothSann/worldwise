@@ -35,30 +35,6 @@
         "lng": 13.376933665713324
       },
       "id": "98443197"
-    },
-    {
-      "id": "b6b1",
-      "cityName": "Benicassim",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-05-19T09:12:13.032Z",
-      "notes": "best mg",
-      "position": {
-        "lat": "40.02222489563137",
-        "lng": "0.02780914306640625"
-      }
-    },
-    {
-      "id": "9e4d",
-      "cityName": "Ka Laeng",
-      "country": "Cambodia",
-      "emoji": "🇰🇭",
-      "date": "2025-05-19T10:06:29.437Z",
-      "notes": "best",
-      "position": {
-        "lat": "13.549881446917139",
-        "lng": "107.08374023437501"
-      }
     }
   ]
 }
