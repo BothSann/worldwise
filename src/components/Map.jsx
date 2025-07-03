@@ -8,7 +8,7 @@ import {
 } from "react-leaflet";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
-import { useGeolocation } from "../hooks/useGeoLocation";
+import { useGeolocation } from "../hooks/useGeolocation";
 import useCities from "../hooks/useCities";
 import { useUrlPosition } from "../hooks/useUrlPosition";
 import Button from "./Button";
